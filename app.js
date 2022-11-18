@@ -1,6 +1,13 @@
 const express = require('express')
 const app = express()
 const PORT =4000
+const sql = require('mssql')
+const config ={
+    user:"merlin",
+    password:"Admin1629",
+    server:"thaiserve.database.windows.net",
+    database:"dbproject"
+}
 app.listen(PORT ,()=>{
     console.log("API Running")
 })
