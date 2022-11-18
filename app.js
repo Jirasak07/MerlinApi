@@ -11,7 +11,7 @@ const config ={
 app.listen(PORT ,()=>{
     console.log("API Running")
 })
-app.get('/main',function(req,res,next){
+app.get('/main',(req,res,)=>{
     res.send("This is Main")
 })
 app.get('/',(req,res)=>{
